@@ -44,8 +44,19 @@
                     <view key="view" contentMode="scaleToFill" id="Qff-fq-HlZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBt-np-dkq">
+                                <rect key="frame" x="327" y="64" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="yl6-BE-Z5Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qBt-np-dkq" firstAttribute="top" secondItem="yl6-BE-Z5Z" secondAttribute="top" constant="20" id="0J0-md-sE3"/>
+                            <constraint firstItem="yl6-BE-Z5Z" firstAttribute="trailing" secondItem="qBt-np-dkq" secondAttribute="trailing" constant="20" id="pip-Rr-wfQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pvf-am-NXj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
