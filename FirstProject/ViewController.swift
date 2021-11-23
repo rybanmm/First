@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBAction func calculator() {
         let storyboard = UIStoryboard(name: "Main", bundle: nibBundle)
         let calculator = storyboard.instantiateViewController(withIdentifier: "CalculatorViewController")
-        present(calculator, animated: true, completion: nil)
+        self.present(calculator, animated: true, completion: nil)
     }
     
 }

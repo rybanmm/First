@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wan-YH-0ZV">
-                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
+                                <rect key="frame" x="152.5" y="432.5" width="109" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Калькулятор"/>
                                 <connections>
                                     <action selector="calculator" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYB-K1-YLd"/>
                                 </connections>
@@ -46,15 +46,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBt-np-dkq">
-                                <rect key="frame" x="327" y="64" width="67" height="31"/>
+                                <rect key="frame" x="328" y="64" width="66" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Назад"/>
+                                <connections>
+                                    <action selector="close" destination="6hN-po-VyJ" eventType="touchUpInside" id="UzD-kV-YTg"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyh-Hs-gre">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yl6-BE-Z5Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qBt-np-dkq" firstAttribute="top" secondItem="yl6-BE-Z5Z" secondAttribute="top" constant="20" id="0J0-md-sE3"/>
+                            <constraint firstItem="Kyh-Hs-gre" firstAttribute="centerY" secondItem="Qff-fq-HlZ" secondAttribute="centerY" id="HS4-gh-gDq"/>
+                            <constraint firstItem="Kyh-Hs-gre" firstAttribute="centerX" secondItem="Qff-fq-HlZ" secondAttribute="centerX" id="mOT-kI-rlx"/>
                             <constraint firstItem="yl6-BE-Z5Z" firstAttribute="trailing" secondItem="qBt-np-dkq" secondAttribute="trailing" constant="20" id="pip-Rr-wfQ"/>
                         </constraints>
                     </view>
