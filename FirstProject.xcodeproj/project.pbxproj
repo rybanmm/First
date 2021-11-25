@@ -14,6 +14,7 @@
 		568E20FD274D108400F44D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568E20FC274D108400F44D1C /* Assets.xcassets */; };
 		568E2100274D108400F44D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568E20FE274D108400F44D1C /* LaunchScreen.storyboard */; };
 		568E2108274D117500F44D1C /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E2107274D117500F44D1C /* CalculatorViewController.swift */; };
+		568E210A274EE52500F44D1C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E2109274EE52500F44D1C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		568E20FF274D108400F44D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568E2101274D108400F44D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568E2107274D117500F44D1C /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		568E2109274EE52500F44D1C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				568E20F3274D108100F44D1C /* AppDelegate.swift */,
+				568E2109274EE52500F44D1C /* SecondViewController.swift */,
 				568E20F5274D108100F44D1C /* SceneDelegate.swift */,
 				568E2107274D117500F44D1C /* CalculatorViewController.swift */,
 				568E20F7274D108100F44D1C /* ViewController.swift */,
@@ -144,6 +147,7 @@
 				568E20F8274D108100F44D1C /* ViewController.swift in Sources */,
 				568E20F4274D108100F44D1C /* AppDelegate.swift in Sources */,
 				568E2108274D117500F44D1C /* CalculatorViewController.swift in Sources */,
+				568E210A274EE52500F44D1C /* SecondViewController.swift in Sources */,
 				568E20F6274D108100F44D1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
